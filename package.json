@@ -1,12 +1,5 @@
 {
-  "name": "sos2324-15-sandbox",
-  "version": "0.0.0",
-  "description": "mi primer paquete de node",
-  "main": "index.js",
-  "scripts": {
-    "start":"node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "marta",
-  "license": "GPL-3.0"
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
