@@ -3,6 +3,10 @@ let express = require("express");
 
 let app = express();
 
+let data_OGG= require('./index-OGG');
+let data_MFC= require('./index-MFC');
+let data_SCG= require('./index-SCG');
+
 const PORT = 10000;
 
 app.get("/", (req,res) => {
